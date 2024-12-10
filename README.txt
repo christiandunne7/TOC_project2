@@ -8,3 +8,10 @@ I used various NTMs as test cases, showing a range of nondeterminism, from low (
 As the code traces the given NTM, it creates a tree which is shown at the end of each trace to further illuminate the process.
 
 Overall, the code does a good job of measuring nondeterminism, and shows the varying levels that come with more advanced NTMs or more complicated inputs.
+
+EXAMPLE RUN:
+NTM: aplus.csv
+input: aaa
+result: accept
+depth: 4
+avg nondeterminism: 2.20
