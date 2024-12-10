@@ -1,0 +1,21 @@
+program: .\traceTM_cdunne7.py
+ntm file: anbn.csv
+input string 1: ab
+input string 2: bbbb
+input string 3: aabb
+max depth: 50
+
+processing input string: 'ab'
+string accepted in 3 steps. 
+tree: [[['', 'q1', 'ab']], [['a', 'q2', 'b']], [['ab', 'q2', '_']], [['ab_', 'qaccept', '_']]]. 
+degree of nondeterminism: 1.00
+
+processing input string: 'bbbb'
+string rejected in 1 steps. 
+tree: [[['', 'q1', 'bbbb']], [['b', 'qreject', 'bbb']]]. 
+degree of nondeterminism: 1.00
+
+processing input string: 'aabb'
+string accepted in 5 steps. 
+tree: [[['', 'q1', 'aabb']], [['a', 'q2', 'abb']], [['aa', 'q2', 'bb'], ['aa', 'qreject', 'bb']], [['aab', 'q2', 'b']], [['aabb', 'q2', '_']], [['aabb_', 'qaccept', '_']]]. 
+degree of nondeterminism: 1.17

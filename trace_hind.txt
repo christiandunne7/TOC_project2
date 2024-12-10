@@ -1,0 +1,21 @@
+program: .\traceTM_cdunne7.py
+ntm file: hind.csv
+input string 1: aaaaba
+input string 2: bababab
+input string 3: bbbbbb
+max depth: 50
+
+processing input string: 'aaaaba'
+string accepted in 2 steps. 
+tree: [[['', 'q1', 'aaaaba']], [['a', 'q2', 'aaaba'], ['a', 'q3', 'aaaba'], ['a', 'q4', 'aaaba']], [['aa', 'q5', 'aaba'], ['aa', 'qaccept', 'aaba'], ['aa', 'qreject', 'aaba']]]. 
+degree of nondeterminism: 2.33
+
+processing input string: 'bababab'
+string accepted in 2 steps. 
+tree: [[['', 'q1', 'bababab']], [['b', 'q2', 'ababab'], ['b', 'q3', 'ababab'], ['b', 'q4', 'ababab']], [['ba', 'q5', 'babab'], ['ba', 'qaccept', 'babab'], ['ba', 'qreject', 'babab']]]. 
+degree of nondeterminism: 2.33
+
+processing input string: 'bbbbbb'
+string accepted in 2 steps. 
+tree: [[['', 'q1', 'bbbbbb']], [['b', 'q2', 'bbbbb'], ['b', 'q3', 'bbbbb'], ['b', 'q4', 'bbbbb']], [['bb', 'q5', 'bbbb'], ['bb', 'qaccept', 'bbbb'], ['bb', 'qreject', 'bbbb']]]. 
+degree of nondeterminism: 2.33

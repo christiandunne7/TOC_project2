@@ -1,0 +1,21 @@
+program: .\traceTM_cdunne7.py
+ntm file: bstar.csv
+input string 1: b
+input string 2: _
+input string 3: bbbbbbbbb
+max depth: 50
+
+processing input string: 'b'
+string accepted in 2 steps. 
+tree: [[['', 'q1', 'b']], [['b', 'q1', '_']], [['b_', 'qaccept', '_']]]. 
+degree of nondeterminism: 1.00
+
+processing input string: '_'
+string accepted in 1 steps. 
+tree: [[['', 'q1', '_']], [['_', 'qaccept', '_']]]. 
+degree of nondeterminism: 1.00
+
+processing input string: 'bbbbbbbbb'
+string accepted in 10 steps. 
+tree: [[['', 'q1', 'bbbbbbbbb']], [['b', 'q1', 'bbbbbbbb']], [['bb', 'q1', 'bbbbbbb']], [['bbb', 'q1', 'bbbbbb']], [['bbbb', 'q1', 'bbbbb']], [['bbbbb', 'q1', 'bbbb']], [['bbbbbb', 'q1', 'bbb']], [['bbbbbbb', 'q1', 'bb']], [['bbbbbbbb', 'q1', 'b']], [['bbbbbbbbb', 'q1', '_']], [['bbbbbbbbb_', 'qaccept', '_']]]. 
+degree of nondeterminism: 1.00

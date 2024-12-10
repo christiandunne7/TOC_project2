@@ -1,0 +1,21 @@
+program: .\traceTM_cdunne7.py
+ntm file: aorb.csv
+input string 1: a
+input string 2: b
+input string 3: aa
+max depth: 50
+
+processing input string: 'a'
+string accepted in 2 steps. 
+tree: [[['', 'q1', 'a']], [['a', 'q2', '_']], [['a_', 'qaccept', '_']]]. 
+degree of nondeterminism: 1.00
+
+processing input string: 'b'
+string accepted in 2 steps. 
+tree: [[['', 'q1', 'b']], [['b', 'q2', '_']], [['b_', 'qaccept', '_']]]. 
+degree of nondeterminism: 1.00
+
+processing input string: 'aa'
+string rejected in 2 steps. 
+tree: [[['', 'q1', 'aa']], [['a', 'q2', 'a']], [['aa', 'qreject', '_']]]. 
+degree of nondeterminism: 1.00

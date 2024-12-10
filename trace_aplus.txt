@@ -1,0 +1,19 @@
+program: .\traceTM_cdunne7.py
+ntm file: aplus.csv
+input string 1: aaa
+input string 2: _
+input string 3: aaaba
+max depth: 50
+
+processing input string: 'aaa'
+string accepted in 4 steps. 
+tree: [[['', 'q1', 'aaa']], [['a', 'q1', 'aa'], ['a', 'q2', 'aa']], [['aa', 'q1', 'a'], ['aa', 'q2', 'a'], ['aa', 'qreject', 'a']], [['aaa', 'q1', '_'], ['aaa', 'q2', '_'], ['aaa', 'qreject', '_']], [['aaa_', 'qreject', '_'], ['aaa_', 'qaccept', '_']]]. 
+degree of nondeterminism: 2.20
+
+processing input string: '_'
+string rejected in 1 steps. 
+tree: [[['', 'q1', '_']], [['_', 'qreject', '_']]]. 
+degree of nondeterminism: 1.00
+
+processing input string: 'aaaba'
+error: b not found in alphabet: ['a']
